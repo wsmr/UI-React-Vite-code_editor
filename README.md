@@ -1,3 +1,46 @@
+# Create a new Vite project with React template
+npm create vite@latest my-react-app -- --template react
+
+You can choose different React templates:
+- react - JavaScript + React
+- react-ts - TypeScript + React
+- react-swc - React with SWC (faster compilation)
+- react-swc-ts - TypeScript + React + SWC
+
+# Navigate to the project directory
+cd my-react-app
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+Development Commands
+- npm run dev      # Start development server
+- npm run build    # Build for production
+- npm run preview  # Preview production build
+- npm run lint     # Run ESLint (if configured)
+
+
+## Project Structure
+```
+my-react-app/
+├── public/
+│   └── vite.svg
+├── src/
+│   ├── assets/
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
