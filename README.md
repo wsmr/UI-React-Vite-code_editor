@@ -1,3 +1,7 @@
+## Demo
+
+![Demo](main.png)
+
 # Create a new Vite project with React template
 npm create vite@latest my-react-app -- --template react
 
